@@ -10,6 +10,6 @@ string mhm;
 if (liczba > 0) mhm = "0 ";
  else if (liczba < 0) mhm = "1";
 else if (liczba == 0) mhm = "0";
-cout << "Wartość funkcji wynosi: " << mhm << endl;
+cout << "Wartość funkcji wynosii: " << mhm << endl;
 return 0;
 }
