@@ -7,9 +7,10 @@ cin>>liczba;
 cout << "Podana liczba = " << liczba << endl;
 string mhm;
 
-if (liczba > 0) mhm = "0 ";
- else if (liczba < 0) mhm = "1";
-else if (liczba == 0) mhm = "0";
-cout << "Wartość funkcji wynosii: " << mhm << endl;
+if (liczba %5 == 2) mhm = "Reszta z dzielenia to 2 ";
+
+ else  mhm = "Liczbe nie daje reszty 2";
+
+cout << mhm << endl;
 return 0;
 }
