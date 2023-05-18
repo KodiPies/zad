@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
 int liczba ;
-cout<<"Podaj liczbę"<<endl;
+cout<<"Podaj liczbę a sprawdze czy daje reszta z dzielenia przez 5"<<endl;
 cin>>liczba;
 cout << "Podana liczba = " << liczba << endl;
 string mhm;
